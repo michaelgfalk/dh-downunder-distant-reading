@@ -27,7 +27,7 @@ The alternative is to download Python 3.7 'the normal way' from the [Python webs
 
 Once you have installed Python, you need to install some additional software the provides some useful distant reading tools. You can do this using `pip`, Python's built-in package manager.
 
-**On Windows:** Open Command Prompt. To find Command Prompt, you can click the `Start` button or hit the <kbd>Windows</kbd> key and start typing its name. Once you have opened Command Prompt, copy and paste the following code and hit <kbd>Enter</kbd>:
+**On Windows:** Open Command Prompt. To find Command Prompt, you can click the `Start` button or hit the <kbd><img src="https://pl.wikipedia.org/wiki/Plik:Windows_logo_2012-Black.svg" alt="Windows" width="10" height="10"></kbd> key and start typing its name. Once you have opened Command Prompt, copy and paste the following code and hit <kbd>Enter</kbd>:
 
 ```
 pip install --upgrade pip
@@ -38,7 +38,7 @@ pip install nltk
 pip install jupyter
 ```
 
-**On Mac:** Open Terminal. You will find Terminal in the 'Applications' folder. Alternatively, hit <kbd>Cmd</kbd> + <kbd>Space</kbd> to open Spotlight, and search for Terminal by name. Once you have opened a new Terminal, copy and paste the following code and hit <kbd>Enter</kbd>:
+**On Mac:** Open Terminal. You will find Terminal in the 'Applications' folder. Alternatively, hit <kbd>Cmd &#8984;</kbd> + <kbd>Space</kbd> to open Spotlight, and search for Terminal by name. Once you have opened a new Terminal, copy and paste the following code and hit <kbd>Enter</kbd>:
 
 ```
 pip install --upgrade pip
