@@ -6,10 +6,13 @@ Distant reading is the art of extracting meaning from text without actually look
 
 Today distant reading is experiencing a renaissance, as advancing computer power, mass digitisation and more intelligent software allows us to query unread texts&mdash;or indeed images, sounds and videos&mdash;in ways we never could before. We hope that at the end of this series of workshops, you feel more confident to put text at a distance, and see what you can see when you step back from the canvas.
 
-## Your instructors
+## Text Analysis in Python
+
+During these two days of workshops, you will learn how to use the Python programming language to analyse text. If you wish, you can also complete the d3 workshop with [Rachel Hendery](https://www.westernsydney.edu.au/marcs/our_team/researchers/dr_rachel_hendery) and the corpus linguistics workshop with [Monika Bednarek](https://sydney.edu.au/arts/linguistics/staff/profiles/monika.bednarek.php) to get a complete introduction to digital text analysis and visualisation.
+
+## Your instructor
 
 * [Michael Falk](https://github.com/michaelgfalk): Developer and Research Project Manager, Digital Humanities Research Group, Western Sydney University
-* [Rachel Hendery](https://www.westernsydney.edu.au/marcs/our_team/researchers/dr_rachel_hendery): Associate Professor of Digital Humanities, Western Sydney University
 
 ## Getting started
 
@@ -53,6 +56,8 @@ pip install jupyter
 
 ### Step 3: Clone (or fork) this repository
 
+**Note:** *This repository is still under development. If you perform this step now, you will need to repeat it closer to the workshop.*
+
 Once you have install Python, you need to download this repository, so you have all the code and data you need to participate in the workshops. To do that, click the 'clone or download' button at the top of this page. Make sure to save the folder somewhere that is easy to find. On Windows, we would recommend that you save the folder directly in your C:/ drive. On Mac, we would recommend that you save it in your root folder, which is the folder named with your username.
 
 ### Step 4: Navigate to workshop directory and open Jupyter Notebooks
@@ -63,16 +68,21 @@ Once you have installed Python and downloaded this repository, you need to fire 
 
 If you did not install Anaconda, or prefer to use the command line, then use the following instructions:
 
-**On Windows:** Open Command Prompt. First you need to navigate to the folder where the repository is saved using the 'cd' ('change directory') command. Then should instruct your machine to open a Jupyter notebook. If you saved the repo directly in your C:/ drive, the command would be:
+**On Windows:** Open Command Prompt. First you need to navigate to the folder where the repository is saved using the 'cd' ('change directory') command. Then you can instruct your machine to open a Jupyter notebook. If you saved the repo directly in your C:/ drive, the command would be:
 
 ```
 cd c:\dh-downunder-distant-reading
 jupyter notebook
 ```
 
-Sometimes the `jupyter notebook` command doesn't work on Windows. If it fails for you, then try this alternative: `python -m notebook`.
+Sometimes the `jupyter notebook` command doesn't work on Windows. If it fails for you, then try this alternative:
 
-**On Mac:** Open a new Terminal window. First you need to navigate to the folder where the repository is saved using the 'cd' ('change directory') command. Then should instruct your machine to open a Jupyter notebook. If you saved the repo directly in your root folder, the command would be:
+```
+cd c:\dh-downunder-distant-reading
+python -m notebook
+```
+
+**On Mac:** Open a new Terminal window. First you need to navigate to the folder where the repository is saved using the 'cd' ('change directory') command. Then you can instruct your machine to open a Jupyter notebook. If you saved the repo directly in your root folder, the command would be:
 
 ```
 cd ~/dh-downunder-distant-reading
