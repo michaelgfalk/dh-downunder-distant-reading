@@ -92,3 +92,7 @@ jupyter notebook
 If everything worked successfully, then your default browser should open, and show a screen like this:
 
 ![Image of Jupyter Notebook](success.png)
+
+## Licence information
+
+All the code in this repository is released under the MIT Licence. You can see the text of the licence in [the included licence file](LICENCE). All the texts in the repository are sourced from Project Gutenberg, in accordance with the terms of [the Project Gutenberg licence](https://www.gutenberg.org/wiki/Gutenberg:The_Project_Gutenberg_License).
