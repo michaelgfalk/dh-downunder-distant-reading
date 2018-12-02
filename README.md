@@ -16,6 +16,8 @@ During these two days of workshops, you will learn how to use the Python program
 
 ## Getting started
 
+**UPDATE (2/12/18):** All the materials in this respository have been checked up updated. It is now ready to be downloaded and used as described below.
+
 For the first two days of this workshop, you will be working in [Python](https://www.python.org/), using the [Natural Language Toolkit](https://www.nltk.org/). You will write and test your code using [Jupyter Notebooks](http://jupyter.org/). For these two days, you will need to install some software as explained below. On the final day, we will be learning how to visualise your distant reading data using [d3](https://d3js.org/).
 
 ### Step 1: Install Python 3
@@ -61,8 +63,6 @@ pip install scipy
 **On Linux:** If you run Linux, you probably aren't doing this workshop.
 
 ### Step 3: Clone (or fork) this repository
-
-**Note:** *This repository is still under development. If you perform this step now, you will need to repeat it closer to the workshop.*
 
 Once you have install Python, you need to download this repository, so you have all the code and data you need to participate in the workshops. To do that, click the 'clone or download' button at the top of this page. Make sure to save the folder somewhere that is easy to find. On Windows, we would recommend that you save the folder directly in your C:/ drive. On Mac, we would recommend that you save it in your root folder, which is the folder named with your username.
 
