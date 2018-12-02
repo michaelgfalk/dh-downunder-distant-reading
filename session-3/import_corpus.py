@@ -28,20 +28,20 @@ def import_corpus(corpus_path = 'texts', manifest_file = 'manifest.json'):
     licence_regex = re.compile('\*{3} {0,2}END OF.+', flags = re.DOTALL)
 
     # Instantiate novel list
-    novels = []
+    novels = {}
 
     # Loop over files, import and tokenise novels
-    for file in file_list:
+    for file_name in file_list:
 
         # Initialise novel dict
         novel = {}
 
         # Fetch metadata from manifest
-        novel['title'] = manifest[file]['title']
-        novel['author'] = manifest[file]['author']
+        novel['title'] = manifest[file_name]['title']
+        novel['author'] = manifest[file_name]['author']
 
         # Construct full path
-        full_path = corpus_path + '/' + file
+        full_path = corpus_path + '/' + file_name
 
         # Load text
         with open(full_path, 'r') as file:
@@ -51,21 +51,32 @@ def import_corpus(corpus_path = 'texts', manifest_file = 'manifest.json'):
         novel['header'] = header_regex.search(text).group()
         novel['licence'] = licence_regex.search(text).group()
 
-        # Delete header and licence, then add text body to novel dict
+        # Delete header and licence, strip out capital and junk, then add text body to novel dict
         text = header_regex.sub('', text)
         text = licence_regex.sub('', text)
+        text = text.lower()
+        text = re.sub(r'(?<= )(\W|_)+(?=\w)', '', text) # Strip punctuation from before words
+        text = re.sub(r'(?<=(\w))(\W|_)+(?=\w)', ' ', text) # And after
+        text = re.sub(r' \d+(th|rd|nd|st|mo|\W+)\b', ' ', text) # Also drop numbers
         novel['body'] = text
 
         # Tokenise text
         tokens = wordpunct_tokenize(text) # apply tokeniser
-        # strip out punctuation and single-character strings other than 'a','A','i' or 'I':
-        tokens = [token for token in tokens if re.match('^\w{2,}$|^[aAiI0-9]$', token)] 
+        # strip out punctuation, numbers and single-character strings other than 'a','A','i' or 'I':
+        tokens = [token for token in tokens if re.match(r'^\w{2,}$|^[aAiI0-9]$', token)]
         novel['tokens'] = tokens
 
         # Output message
         print(f'{novel["title"]}, by {novel["author"]} successfully imported.')
 
-        # Add to master list
-        novels.append(novel)
+        # Create short title
+        short = re.sub(r'\.txt','',file_name)
+
+        # Add to master dict
+        novels[short] = novel
+
+    # Final message:
+    unique_authors = set([value["author"] for key,value in novels.items()])
+    print(f'\n{len(novels)} novels imported, by {len(unique_authors)} unique authors.')
 
     return novels

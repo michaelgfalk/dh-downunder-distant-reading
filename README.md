@@ -39,6 +39,9 @@ pip install pandas
 pip install matplotlib
 pip install nltk
 pip install jupyter
+pip install sklearn
+pip install pandas
+pip install scipy
 ```
 
 **On Mac:** Open Terminal. You will find Terminal in the 'Applications' folder. Alternatively, hit <kbd>Cmd &#8984;</kbd> + <kbd>Space</kbd> to open Spotlight, and search for Terminal by name. Once you have opened a new Terminal, copy and paste the following code and hit <kbd>Enter</kbd>:
@@ -50,6 +53,9 @@ pip install pandas
 pip install matplotlib
 pip install nltk
 pip install jupyter
+pip install sklearn
+pip install pandas
+pip install scipy
 ```
 
 **On Linux:** If you run Linux, you probably aren't doing this workshop.

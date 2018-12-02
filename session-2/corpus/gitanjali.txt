@@ -17,7 +17,7 @@ Release Date: December, 2004 [EBook #7164]
 Language: English
 
 
-***START OF THIS PROJECT GUTENBERG EBOOK GITANJALI***
+*** START OF THIS PROJECT GUTENBERG EBOOK GITANJALI***
 
 
 
@@ -1962,7 +1962,7 @@ eternal home in one salutation to thee.
 
 End of the Project Gutenberg EBook of Gitanjali, by Rabindranath Tagore
 
-***END OF THIS PROJECT GUTENBERG EBOOK GITANJALI***
+*** END OF THIS PROJECT GUTENBERG EBOOK GITANJALI***
 
 ***** This file should be named 7164.txt or 7164.zip *****
 This and all associated files of various formats will be found in:

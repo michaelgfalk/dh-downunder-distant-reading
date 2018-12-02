@@ -16,7 +16,7 @@ Release Date: June 12, 2008 [EBook #131]
 Language: English
 
 
-***START OF THIS PROJECT GUTENBERG EBOOK THE PILGRIM'S PROGRESS***
+*** START OF THIS PROJECT GUTENBERG EBOOK THE PILGRIM'S PROGRESS***
 
 
 
@@ -6318,7 +6318,7 @@ was a dream.
 
 End of the Project Gutenberg EBook of The Pilgrim's Progress, by John Bunyan
 
-***END OF THIS PROJECT GUTENBERG EBOOK THE PILGRIM'S PROGRESS***
+*** END OF THIS PROJECT GUTENBERG EBOOK THE PILGRIM'S PROGRESS***
 
 ***** This file should be named 131.txt or 131.zip *****
 This and all associated files of various formats will be found in:

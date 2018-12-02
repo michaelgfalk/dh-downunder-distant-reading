@@ -16,7 +16,7 @@ Release Date: June 12, 2012 [EBook #4276]
 Language: English
 
 
-***START OF THIS PROJECT GUTENBERG EBOOK NORTH AND SOUTH***
+*** START OF THIS PROJECT GUTENBERG EBOOK NORTH AND SOUTH***
 
 
 
@@ -19083,7 +19083,7 @@ indignant tones as she says, "That woman!"'
 
 End of Project Gutenberg's North and South, by Elizabeth Cleghorn Gaskell
 
-***END OF THIS PROJECT GUTENBERG EBOOK NORTH AND SOUTH***
+*** END OF THIS PROJECT GUTENBERG EBOOK NORTH AND SOUTH***
 
 ***** This file should be named 4276.txt or 4276.zip *****
 This and all associated files of various formats will be found in:

@@ -20,7 +20,7 @@ Language: English
 
 Character set encoding: UTF-8
 
-***START OF THIS PROJECT GUTENBERG EBOOK CORINNE; OR, ITALY***
+*** START OF THIS PROJECT GUTENBERG EBOOK CORINNE; OR, ITALY ***
 
 
 
@@ -14730,7 +14730,7 @@ THE END.
 
 End of Project Gutenberg's Corinne; or, Italy, by Germaine, Madame de Staël
 
-***END OF THIS PROJECT GUTENBERG EBOOK CORINNE; OR, ITALY***
+*** END OF THIS PROJECT GUTENBERG EBOOK CORINNE; OR, ITALY***
 
 ***** This file should be named 52077-0.txt or 52077-0.zip *****
 This and all associated files of various formats will be found in:

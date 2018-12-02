@@ -18,7 +18,7 @@ Language: English
 
 Character set encoding: UTF-8
 
-***START OF THIS PROJECT GUTENBERG EBOOK PRIDE AND PREJUDICE***
+*** START OF THIS PROJECT GUTENBERG EBOOK PRIDE AND PREJUDICE***
 
 
 
@@ -13066,7 +13066,7 @@ her into Derbyshire, had been the means of uniting them.
 
 End of the Project Gutenberg EBook of Pride and Prejudice, by Jane Austen
 
-***END OF THIS PROJECT GUTENBERG EBOOK PRIDE AND PREJUDICE***
+*** END OF THIS PROJECT GUTENBERG EBOOK PRIDE AND PREJUDICE***
 
 ***** This file should be named 1342-0.txt or 1342-0.zip *****
 This and all associated files of various formats will be found in:

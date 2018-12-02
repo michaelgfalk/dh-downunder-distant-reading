@@ -19,7 +19,7 @@ Language: English
 
 Character set encoding: UTF-8
 
-***START OF THIS PROJECT GUTENBERG EBOOK MOBY DICK; OR THE WHALE***
+*** START OF THIS PROJECT GUTENBERG EBOOK MOBY DICK; OR THE WHALE***
 
 
 
@@ -21969,7 +21969,7 @@ children, only found another orphan.
 
 End of Project Gutenberg’s Moby Dick; or The Whale, by Herman Melville
 
-***END OF THIS PROJECT GUTENBERG EBOOK MOBY DICK; OR THE WHALE ***
+*** END OF THIS PROJECT GUTENBERG EBOOK MOBY DICK; OR THE WHALE ***
 
 ***** This file should be named 2701-0.txt or 2701-0.zip ***** This and
 all associated files of various formats will be found in:

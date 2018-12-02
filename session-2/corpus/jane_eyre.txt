@@ -26,7 +26,7 @@ Language: English
 Character set encoding: ISO-646-US (US-ASCII)
 
 
-***START OF THE PROJECT GUTENBERG EBOOK JANE EYRE***
+*** START OF THE PROJECT GUTENBERG EBOOK JANE EYRE***
 
 
 
@@ -20701,7 +20701,7 @@ respond,--'Amen; even so come, Lord Jesus!'"
 
 
 
-***END OF THE PROJECT GUTENBERG EBOOK JANE EYRE***
+*** END OF THE PROJECT GUTENBERG EBOOK JANE EYRE***
 
 
 ******* This file should be named 1260.txt or 1260.zip *******
