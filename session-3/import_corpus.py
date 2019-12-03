@@ -1,3 +1,4 @@
+"""Helper functions for third session."""
 import json
 import os
 import re
@@ -24,8 +25,8 @@ def import_corpus(corpus_path = 'texts', manifest_file = 'manifest.json'):
     file_list = [file for file in file_list if file != manifest_file]
 
     # Create useful regular expressions
-    header_regex = re.compile('\A.+\*{3} {0,2}START OF.{,200}\*{3}', flags = re.DOTALL)
-    licence_regex = re.compile('\*{3} {0,2}END OF.+', flags = re.DOTALL)
+    header_regex = re.compile(r'\A.+\*{3} {0,2}START OF.{,200}\*{3}', flags = re.DOTALL)
+    licence_regex = re.compile(r'\*{3} {0,2}END OF.+', flags = re.DOTALL)
 
     # Instantiate novel list
     novels = {}
@@ -44,7 +45,7 @@ def import_corpus(corpus_path = 'texts', manifest_file = 'manifest.json'):
         full_path = corpus_path + '/' + file_name
 
         # Load text
-        with open(full_path, 'r') as file:
+        with open(full_path, 'r', errors='ignore') as file:
             text = file.read()
 
         # Extract header, footer
