@@ -1,22 +1,26 @@
 # Distant Reading
 
-Welcome to the distant reading stream of *DH Downunder 2018*. In this github repository, you will find all the code and data you need to complete the exercises in the workshops, and to get started on your own distant reading projects.
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/michaelgfalk/dh-downunder-distant-reading/master)
+
+These notebooks were initially prepared for the *Distant Reading* stream at DH Downunder 2018. You are free to use them however you like. (See the [Licence File](LICENSE).)
 
 Distant reading is the art of extracting meaning from text without actually looking at the words with your own eyes. All of us are distant readers. We interpret what texts mean according to their titles, their covers, or their authors. We use library catalogues or bibliographic databases to see what has been written on a certain topic, and to decide which texts are worth the effort of close reading.
 
 Today distant reading is experiencing a renaissance, as advancing computer power, mass digitisation and more intelligent software allows us to query unread texts&mdash;or indeed images, sounds and videos&mdash;in ways we never could before. We hope that at the end of this series of workshops, you feel more confident to put text at a distance, and see what you can see when you step back from the canvas.
 
+## Accessing the notebooks
+
+There are instructions below for downloading these notebooks to your own machine and getting them working. You can also [access them online](https://mybinder.org/v2/gh/michaelgfalk/dh-downunder-distant-reading/2bec02b7933e135877db0f2db0eb72fa4dbb92ac).
+
 ## Text Analysis in Python
 
-During these two days of workshops, you will learn how to use the Python programming language to analyse text. If you wish, you can also complete the d3 workshop with [Rachel Hendery](https://www.westernsydney.edu.au/marcs/our_team/researchers/dr_rachel_hendery) and the corpus linguistics workshop with [Monika Bednarek](https://sydney.edu.au/arts/linguistics/staff/profiles/monika.bednarek.php) to get a complete introduction to digital text analysis and visualisation.
+Over these three session, you will learn how to use the Python programming language to analyse text.
 
 ## Your instructor
 
 * [Michael Falk](https://github.com/michaelgfalk): Developer and Research Project Manager, Digital Humanities Research Group, Western Sydney University
 
 ## Getting started
-
-**UPDATE (2/12/18):** All the materials in this respository have been checked up updated. It is now ready to be downloaded and used as described below.
 
 For the first two days of this workshop, you will be working in [Python](https://www.python.org/), using the [Natural Language Toolkit](https://www.nltk.org/). You will write and test your code using [Jupyter Notebooks](http://jupyter.org/). For these two days, you will need to install some software as explained below. On the final day, we will be learning how to visualise your distant reading data using [d3](https://d3js.org/).
 
